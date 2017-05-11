@@ -1,0 +1,38 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/molang">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:layout_gravity="center_horizontal"
+        android:layout_x="-1dp"
+        android:layout_y="279dp"
+        android:textStyle="bold"
+        android:text="We are two computer science undergrads, Adhiragni Roy and Yugashanthini who are keen at developing Android Apps.
+        What started from simple seminar at college took us to IIT for competing at National Level and to developing some out-of-the-box apps to create a better environment and interaction for students and Professors.
+        AdYu. The next step." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="About Us"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/textView6"
+        android:layout_x="108dp"
+        android:layout_y="69dp" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/hola"
+        android:layout_x="245dp"
+        android:layout_y="41dp"
+        android:src="@drawable/log"/>
+</AbsoluteLayout>

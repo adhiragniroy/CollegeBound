@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/natgeo">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="College Bound"
+        android:textSize="35dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_x="5dp"
+        android:layout_y="350dp"
+        android:textColorHighlight="#e6acac"
+        android:textStyle="bold"
+        style="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:capitalize="characters"
+        android:textAlignment="center"
+        android:textColor="#d84c4c" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="240dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/log"
+        android:layout_x="3dp"
+        android:layout_y="45dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Developed by Adhiragni Roy and Yugashanthini"
+        android:textSize="15dp"
+        android:id="@+id/textView6"
+        android:layout_x="3dp"
+        android:layout_y="455dp" />
+
+</AbsoluteLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.adhiragniroy.try2.Main4Activity"
+    android:background="@drawable/exotic">
+
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Select Subject"
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="Maths IV"
+            android:id="@+id/button4"
+            android:textSize="20dp"
+            android:layout_x="10dp"
+            android:layout_y="50dp"
+            android:background="#9e020101"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="GRAPH THEORY"
+            android:id="@+id/button5"
+            android:layout_x="10dp"
+            android:textSize="20dp"
+            android:layout_y="350dp"
+            android:background="#9e020101"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:textSize="20dp"
+            android:text="DESIGN AND ANALYSIS OF ALGORITHMS"
+            android:id="@+id/button6"
+            android:layout_x="10dp"
+            android:layout_y="650dp"
+            android:background="#9e020101"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="MICROPROCESSOR"
+            android:textSize="20dp"
+            android:id="@+id/button7"
+            android:layout_x="10dp"
+            android:layout_y="950dp"
+            android:background="#9e020101"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="COMPUTER ORGANISATION"
+            android:textSize="20dp"
+            android:id="@+id/button8"
+            android:layout_x="10dp"
+            android:layout_y="1250dp"
+            android:background="#9e020101"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="UNIX AND SHELL PROGRAMMING"
+            android:textSize="20dp"
+            android:id="@+id/button9"
+            android:layout_x="10dp"
+            android:layout_y="1550dp"
+            android:background="#9e020101"
+            android:textColor="#ffffff"/>
+
+
+    </AbsoluteLayout>
+</ScrollView>

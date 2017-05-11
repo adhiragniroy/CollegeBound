@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/exotic"
+    tools:context="com.example.adhiragniroy.try2.Main4Activity">
+
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Select Subject"
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="MATHS I"
+            android:background="#64ffffff"
+            android:textSize="20dp"
+            android:id="@+id/button4"
+            android:layout_x="10dp"
+            android:layout_y="50dp" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="MATHS II"
+            android:background="#64ffffff"
+            android:textSize="20dp"
+            android:id="@+id/button5"
+            android:layout_x="10dp"
+            android:layout_y="350dp" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="PHYSICS"
+            android:background="#64ffffff"
+            android:textSize="20dp"
+            android:id="@+id/button6"
+            android:layout_x="10dp"
+            android:layout_y="650dp" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="CHEMISTRY"
+            android:background="#64ffffff"
+            android:textSize="20dp"
+            android:id="@+id/button7"
+            android:layout_x="10dp"
+            android:layout_y="950dp" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="ELECTRICAL ENGINEERING"
+            android:background="#64ffffff"
+            android:textSize="20dp"
+            android:id="@+id/button8"
+            android:layout_x="10dp"
+            android:layout_y="1250dp" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="BASIC ELECTRONICS"
+            android:background="#64ffffff"
+            android:textSize="20dp"
+            android:id="@+id/button9"
+            android:layout_x="10dp"
+            android:layout_y="1550dp" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="CIVIL ENGINEERING"
+            android:background="#64ffffff"
+            android:textSize="20dp"
+            android:id="@+id/button10"
+            android:layout_x="10dp"
+            android:layout_y="1850dp" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="MECHANICAL ENGINEERING"
+            android:background="#64ffffff"
+            android:textSize="20dp"
+            android:id="@+id/button11"
+            android:layout_x="10dp"
+            android:layout_y="2150dp" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="CONSTITUTION"
+            android:background="#64ffffff"
+            android:textSize="20dp"
+            android:id="@+id/button12"
+            android:layout_x="10dp"
+            android:layout_y="2450dp" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="ENVIRONMENTAL STUDIES"
+            android:background="#64ffffff"
+            android:textSize="20dp"
+            android:id="@+id/button13"
+            android:layout_x="10dp"
+            android:layout_y="2750dp" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="CAED"
+            android:background="#64ffffff"
+            android:textSize="20dp"
+            android:id="@+id/button14"
+            android:layout_x="10dp"
+            android:layout_y="3050dp" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="PCD"
+            android:background="#64ffffff"
+            android:textSize="20dp"
+            android:id="@+id/button15"
+            android:layout_x="10dp"
+            android:layout_y="3350dp" />
+
+    </AbsoluteLayout>
+</ScrollView>
